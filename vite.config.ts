@@ -5,9 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // ADICIONE ESTA LINHA ABAIXO:
-  base: mode === "production" ? "/elite-wealth-builder
-/" : "/",
+  // Adicionado o caminho base do seu repositório no GitHub Pages
+  base: mode === "production" ? "/elite-wealth-builder/" : "/",
   
   server: {
     host: "::",
